@@ -53,6 +53,38 @@ a {
   color: #C04000
 }
 
+.seminar-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.seminar-table thead tr {
+    background-color: #C04000;
+    color: #ffffff;
+    text-align: left;
+}
+
+.seminar-table th,
+.seminar-table td {
+    padding: 12px 15px;
+}
+
+.seminar-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.seminar-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.seminar-table tbody tr:last-of-type {
+    border-bottom: 2px solid #C04000;
+}
+
 .footer {
   background-color: darkgrey;
   padding: 10px;
