@@ -53,6 +53,11 @@ a {
   color: #C04000
 }
 
+.content h3 {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .seminar-table {
     border-collapse: collapse;
     margin: 25px 0;
